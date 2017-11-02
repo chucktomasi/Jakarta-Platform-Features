@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Your Event - Your Date</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	<style type="text/css">
+		/* 1. Style header/footer <div> so they are positioned as desired. */
+		#header-left {
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		#header-right {
+			position: absolute;
+			top: 0%;
+			right: 0%;
+		}
+		#footer-left {
+			position: absolute;
+			bottom: 0%;
+			left: 0%;
+		}
+		#footer-right {
+			position: absolute;
+			bottom: 0%;
+			right: 0%;
+		}
+		
+		.container {
+			position : relative;
+		}
+		
+		.body-right {
+			float : right;
+		}
+		
+		.body-left {
+			float : left;
+		}
+		
+		.bullets {
+			max-width: 50%;
+    		float:left;
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+		}
+
+	</style>
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+
+	<!-- 2. Create hidden header/footer <div> -->
+	<div id="hidden" style="display:none;">
+		<div id="header">
+			<div id="header-left"><img src="images/SN_Twitter_profile_image.png" width="150" height="150" /></div>
+			<div id="footer-right">developer.servicenow.com</div>
+			<div id="footer-left">@ctomasi</div>
+		</div>
+	</div>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>Jakarta Platform Features</h2>
+				<h3>ServiceNow Developer Meetup</h3>
+				<p>
+					<small>Chuck Tomasi/<a href="http://twitter.com/ctomasi">@ctomasi</a></small>
+				<br />
+					<small>chuck.tomasi@servicenow.com</small>
+				</p>
+			</section>
+
+			<section>
+				<h2>developer.servicenow.com</h2>
+				<h3>Docs, Training, Free Instances</h3>
+				<img src="images/SN_Twitter_Cover_Image.png" /> 
+
+			</section>
+			<section>
+				<h2>Chuck Tomasi</h2>
+						<img class="body-right" height="25%" width="25%" src="images/chuck.png" valign="top" />
+
+						<ul>
+							<li>Sr. Technical Product Marketing Manager – Now Platform</li>
+							<li>35+ Years IT Experience</li>
+							<li>SW developer, PM, IT manager</li>
+							<li>ServiceNow customer 2008-2010</li>
+							<li>ServiceNow since 2010</li>
+							<li>First Innovation of the Year Award @K10</li>
+							<li>Co-host of TechNow since 2013</li>
+							<li>Live Coding Happy Hour guest</li>
+							<li>Community leader</li>
+							<li>Hobbies: Podcasting, golf, skiing, martial arts, cosplay</li>	
+						</ul>
+						<!--
+					</td>
+					<td>
+					-->
+						<!--
+					</td>
+				</tr>
+				</table>
+								-->
+			</section>
+
+			<section >
+				<span>
+					<h2>Agenda</h2>
+					<table>
+					<tr>
+					<td>
+						<ul>
+							<li>UI</li>
+							<li>Mobile</li>
+							<li>Security</li>
+							<li>Service Portal</li>
+							<li>Global Search</li>
+							<li>Interfaces</li>
+							<li>Guided Tour Designer</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Notifications</li>
+							<li>Orchestration</li>
+							<li>Update Sets</li>
+							<li>Upgrades</li>
+							<li>ATF</li>
+							<li>Workflow</li>
+							<li>Edge Encryption</li>
+						</ul>
+					</td>
+					</tr>
+					</table>
+				</span>
+				<aside class="notes">These are speaker notes</aside>
+			</section>
+
+
+
+			<section>
+				<section>
+					<h2>UI</h2>
+					<img class="body-right" src="images/ui-smart-image.png" />
+					<ul>
+						<li>Tiny MCE</li></span>
+						<ul>
+							<li>Smart copy/paste (4.4.3)</li>
+							<li>Improved image uploader</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2>UI</h2>
+					<img class="body-right" src="images/ui-workflow-stages.png" />
+					<ul>
+						<li>List V3</li></span>
+						<ul>
+							<li>Performance improvements</li>
+							<li>Workflow stage icons are back!</li>
+							<li>Live lists</li>
+							<li>Related lists are V3 by default</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2>UI</h2>
+					<img class="body-right" width="35%" src="images/ui-action-styles.png" />
+					<ul>
+						<li>UI Action Styles</li></span>
+						<span class="fragment"><li>HTML5 videos inline in activity stream</li></span>
+						<span class="fragment"><li>Double tap to open context menus on tablet</li></span>
+					</ul>
+				</section>
+
+				<section>
+					<h2>UI</h2>
+					<img src="images/ui-config-shortcut.png" />
+					<img src="images/ui-config-list.png" />
+				</section>
+
+			</section>
+			
+			<section>
+				<section>
+					<h2>Mobile</h2>
+					<img src="images/mobile-directions.png" />
+				</section>
+				<section>
+					<h2>Mobile</h2>
+					<img src="images/mobile-agent-schedule.png" />
+				</section>
+			</section>
+			
+			<section>
+				<section>
+					<h2>Security/Authentication</h2>
+					<ul>
+						<span class="fragment"><li>SAML enhancements – improved maintenance/testing</li></span>
+						<span class="fragment"><li>Limit concurrent sessions</li></span>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Security/Role Management</h2>
+					<ul>
+						<span class="fragment"><li>Improvements to de-duplicate entries on sys_user_has_role</li></span>
+						<span class="fragment"><li>Cyclical checks (x contains y contains z contains x)</li></span>
+						<span class="fragment"><li>Improved capability to go from V1 to V2</li></span>
+
+					</ul>
+				</section>
+			</section>
+			
+			<section>
+				<img src="images/sp-list.png" height="50%" width="50%" />
+				
+				<ul>
+					<span class="fragment"><li>Filter builder</li></span>
+					<span class="fragment"><li>User criteria – Portals, pages, widgets, and widget instances</li>
+					<ul>
+						<li>Plugin (and property) required</li>
+					</ul>
+					</span>
+					<span class="fragment"><li>Search sources: contextual</li></span>
+					<span class="fragment"><li>WCAG level AA</li></span>
+				</ul>
+			</section>
+
+			<section class="container">
+				<img class="body-right" src="images/search-results.png" height="50%" width="50%" />
+
+				<ul>		
+					<span class="fragment"><li>Search Sync</li></span>
+					<span class="fragment"><li>Faster responses</li>
+					<ul>
+						<li>One group at a time</li>
+					</ul>
+					</span>
+					<span class="fragment"><li>Better organization</li>
+					<ul>
+						<li>Info bar on top</li>
+						<li>Groups on right</li>
+					</ul>
+					</span>
+					<span class="fragment"><li>text_search view</li></span>
+					<span class="fragment"><li>Custom renderers</li>
+						<img class="body-right-l2" src="images/search-renderer.png" height="50%" width="50%"/>
+					</span>
+					<span class="fragment"><li>Sharable URL</li></span>
+				</ul>
+
+			</section>
+			
+			<section>
+				<section>
+					<h2>Interfaces</h2>
+					<img class="body-right" src="images/interfaces-rest-atf.png" width="50%" />
+					<ul>
+						<li>Inbound REST for ATF</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Interfaces</h2>
+					<span class="fragment"><img class="body-left" src="images/interfaces-nv-table-def.png" width="45%" /></span>
+					<span class="fragment"><img class="body-right" src="images/interfaces-nv-form.png"  width="45%" /></span>
+					<span class="fragment"><img class="body-left" src="images/interfaces-nv-code.png"  width="40%" /></span>
+					<span class="fragment"><img class="body-right" src="images/interfaces-nv-output.png"  width="45%" /></span>
+				</section>
+				
+				<section>
+					<h2>Interfaces</h2>
+					<img class="body-right" src="images/interfaces-json.png" width="50%" />
+
+					<ul>
+						<li>JSON Import/Export</li>
+						<ul>
+							<li>Import via data source</li>
+							<li>Export from list UI</li>
+							<li>Export from export sets</li>
+						</ul>
+					</ul>
+				</section>
+			</section>
+			
+
+<!--
+			<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+				<h2 class="fragment">There are wonderful things in here!</h2>
+				<h2 class="fragment">Let's build something impressive! </h2>
+			</section> 
+-->
+			<section>
+				<h2>Questions?</h2>
+				<img src="images/EinsteinQuestionEverything.png"  />
+
+			</section>
+
+			<section>
+				<h1>Thank You!</h1>
+				<h2>@&lt;Twitter_Handle&gt;</h2>
+				<h2>email</h2>
+			</section>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				controls: true,
+				progress: true,
+				center: true,
+				width: "95%",
+				height: "100%",
+				margin: 0,
+				minScale: 1,
+				maxScale: 1,
+							
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+		</script>
+		<script src="scripts/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript">
+
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+    	Reveal.addEventListener( 'ready', function( event ) {
+    		$('.slide-background').append(header);
+    	});
+    }
+    else {
+    	$('div.reveal').append(header);
+    }
+    Reveal.addEventListener( 'demo', function() {
+    	console.log( '"demo" has fired' );
+    	setTimeout(function(){
+		var pop = window.open('http://helsinki', 'demo'); // opens in new tab on most browsers
+	}, 1000);
+    } );
+
+    Reveal.configure({
+    	keyboard: {
+				40: 'next', // go to the next slide when the Inateck down key is pressed
+				38: 'prev' // go to the previous slide when the up
+			}});
+
+		</script>
+	</body>
+	</html>
