@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Your Event - Your Date</title>
+	<title>Jakarta Platform Features</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/black.css">
@@ -34,10 +34,6 @@
 			right: 0%;
 		}
 		
-		.container {
-			position : relative;
-		}
-		
 		.body-right {
 			float : right;
 		}
@@ -52,6 +48,10 @@
     		-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
     		box-sizing: border-box;
+		}
+		
+		li.bullet-m {
+			font-size: 24pt;
 		}
 
 	</style>
@@ -95,20 +95,21 @@
 			</section>
 			<section>
 				<h2>Chuck Tomasi</h2>
-						<img class="body-right" height="25%" width="25%" src="images/chuck.png" valign="top" />
+						<img class="body-right" width="40%" src="images/chuck.png" valign="top" />
 
-						<ul>
-							<li>Sr. Technical Product Marketing Manager – Now Platform</li>
-							<li>35+ Years IT Experience</li>
-							<li>SW developer, PM, IT manager</li>
-							<li>ServiceNow customer 2008-2010</li>
-							<li>ServiceNow since 2010</li>
-							<li>First Innovation of the Year Award @K10</li>
-							<li>Co-host of TechNow since 2013</li>
-							<li>Live Coding Happy Hour guest</li>
-							<li>Community leader</li>
-							<li>Hobbies: Podcasting, golf, skiing, martial arts, cosplay</li>	
+						<ul class="bullets" style="max-width:55%">
+							<li class="bullet-m">Sr. Technical Product Marketing Manager – Now Platform</li>
+							<li class="bullet-m">35+ Years IT Experience</li>
+							<li class="bullet-m">SW developer, PM, IT manager</li>
+							<li class="bullet-m">ServiceNow customer 2008-2010</li>
+							<li class="bullet-m">ServiceNow since 2010</li>
+							<li class="bullet-m">First Innovation of the Year Award @K10</li>
+							<li class="bullet-m">Co-host of TechNow since 2013</li>
+							<li class="bullet-m">Live Coding Happy Hour guest</li>
+							<li class="bullet-m">Community leader</li>
+							<li class="bullet-m">Hobbies: Podcasting, golf, skiing, martial arts, cosplay</li>	
 						</ul>
+
 						<!--
 					</td>
 					<td>
@@ -157,45 +158,39 @@
 
 			<section>
 				<section>
-					<h2>UI</h2>
-					<img class="body-right" src="images/ui-smart-image.png" />
-					<ul>
-						<li>Tiny MCE</li></span>
-						<ul>
-							<li>Smart copy/paste (4.4.3)</li>
-							<li>Improved image uploader</li>
-						</ul>
+					<h2>UI: Tiny MCE</h2>
+					<img class="body-right" src="images/ui-smart-image.png" width="50%" />
+					<ul class="bullets">
+						<li>Smart copy/paste (4.4.3)</li>
+						<li>Improved image uploader</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>UI</h2>
+					<h2>UI: List V3</h2>
 					<img class="body-right" src="images/ui-workflow-stages.png" />
-					<ul>
-						<li>List V3</li></span>
-						<ul>
-							<li>Performance improvements</li>
-							<li>Workflow stage icons are back!</li>
-							<li>Live lists</li>
-							<li>Related lists are V3 by default</li>
-						</ul>
+					<ul class="bullets">
+						<li>Performance improvements</li>
+						<li>Workflow stage icons are back!</li>
+						<li>Live lists</li>
+						<li>Related lists are V3 by default</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>UI</h2>
+					<h2>UI: Shortcut</h2>
+					<img src="images/ui-config-shortcut.png" />
+					<img src="images/ui-config-list.png" />
+				</section>
+
+				<section>
+					<h2>UI: More...</h2>
 					<img class="body-right" width="35%" src="images/ui-action-styles.png" />
-					<ul>
+					<ul class="bullets">
 						<li>UI Action Styles</li></span>
 						<span class="fragment"><li>HTML5 videos inline in activity stream</li></span>
 						<span class="fragment"><li>Double tap to open context menus on tablet</li></span>
 					</ul>
-				</section>
-
-				<section>
-					<h2>UI</h2>
-					<img src="images/ui-config-shortcut.png" />
-					<img src="images/ui-config-list.png" />
 				</section>
 
 			</section>
@@ -203,11 +198,11 @@
 			<section>
 				<section>
 					<h2>Mobile</h2>
-					<img src="images/mobile-directions.png" />
+					<img src="images/mobile-directions.png" width="40%" />
 				</section>
 				<section>
 					<h2>Mobile</h2>
-					<img src="images/mobile-agent-schedule.png" />
+					<img src="images/mobile-agent-schedule.png" width="50%"/>
 				</section>
 			</section>
 			
@@ -232,9 +227,10 @@
 			</section>
 			
 			<section>
-				<img src="images/sp-list.png" height="50%" width="50%" />
+				<h2>Service Portal: Lists</h2>
+				<img src="images/sp-list.png" height="50%" width="45%" />
 				
-				<ul>
+				<ul class="bullets">
 					<span class="fragment"><li>Filter builder</li></span>
 					<span class="fragment"><li>User criteria – Portals, pages, widgets, and widget instances</li>
 					<ul>
@@ -246,10 +242,12 @@
 				</ul>
 			</section>
 
-			<section class="container">
+			<section>
+				<section>
+				<h2>Search</h2>
 				<img class="body-right" src="images/search-results.png" height="50%" width="50%" />
 
-				<ul>		
+				<ul class="bullets">		
 					<span class="fragment"><li>Search Sync</li></span>
 					<span class="fragment"><li>Faster responses</li>
 					<ul>
@@ -263,25 +261,27 @@
 					</ul>
 					</span>
 					<span class="fragment"><li>text_search view</li></span>
-					<span class="fragment"><li>Custom renderers</li>
-						<img class="body-right-l2" src="images/search-renderer.png" height="50%" width="50%"/>
-					</span>
 					<span class="fragment"><li>Sharable URL</li></span>
 				</ul>
-
+				</section>
+				
+				<section>
+				<h2>Search</h2>
+				<img class="body-right" src="images/search-renderer.png" width="50%" />
+				<ul class="bullets">
+					<li>Custom renderers</li>
+				</ul>
+				</section>
 			</section>
 			
 			<section>
 				<section>
-					<h2>Interfaces</h2>
+					<h2>Interfaces: Inbound REST for ATF</h2>
 					<img class="body-right" src="images/interfaces-rest-atf.png" width="50%" />
-					<ul>
-						<li>Inbound REST for ATF</li>
-					</ul>
 				</section>
 				
 				<section>
-					<h2>Interfaces</h2>
+					<h2>Interfaces: Name/Value Fields</h2>
 					<span class="fragment"><img class="body-left" src="images/interfaces-nv-table-def.png" width="45%" /></span>
 					<span class="fragment"><img class="body-right" src="images/interfaces-nv-form.png"  width="45%" /></span>
 					<span class="fragment"><img class="body-left" src="images/interfaces-nv-code.png"  width="40%" /></span>
@@ -289,20 +289,185 @@
 				</section>
 				
 				<section>
-					<h2>Interfaces</h2>
+					<h2>Interfaces: JSON Import/Export</h2>
 					<img class="body-right" src="images/interfaces-json.png" width="50%" />
 
 					<ul>
-						<li>JSON Import/Export</li>
-						<ul>
-							<li>Import via data source</li>
-							<li>Export from list UI</li>
-							<li>Export from export sets</li>
-						</ul>
+						<li>Import via data source</li>
+						<li>Export from list UI</li>
+						<li>Export from export sets</li>
 					</ul>
 				</section>
 			</section>
 			
+			<section>
+				<h2>Guided Tour Designer</h2>
+				<img class="body-right" src="images/gtd-builder.png" width="45%" />
+				<ul class="bullets">
+					<li>Create self-guided tours on standard forms and lists</li>
+					<li>Users click "Take tour" in context help</li>
+					<li>Tour steps are presented</li>
+				</ul>
+			</section>
+			
+			<section>
+				<section>
+					<h2>Notifications: Email Image Filtering</h2>
+					<img class="body-right" src="images/notifications-email-image-filtering.png" width="35%" />
+					<ul class="bullets">
+						<li>Configure minimum size and action</li>
+						<li>Action=AttachTarget, AttachEmail, AttachNone
+					</ul>
+				</section>
+
+				<section>
+					<h2>Notifications: Random Watermarks</h2>
+					<img class="body-right" src="images/notifications-random-watermarks.png" />
+				</section>
+
+				<section>
+					<h2>Notifications: Consolidated Preferences</h2>
+					<img class="body-right" src="images/notifications-consolidated-preferences.png" width="45%" />
+					<ul class="bullets">
+						<li>Single location</li>
+						<li>UI16 only</li>
+						<li>Categories</li>
+						<li>Available on mobile</li>
+						<span class="fragment"><li>Note: Devices --> Channels</li></span>
+						<span class="fragment"><li>Note: Subscribable --> Personal Notification</li></span>
+					</ul>
+				</section>
+
+			</section>
+			
+			<section>
+				<section>
+					<h2>Orchestration:<br />MID server script file sync</h2>
+					<ul>
+						<li>Allows attachments</li>
+						<li>Improved performance</li>
+					</ul>
+					<img src="images/orchestration-mid-server-file.png" width="80%" />
+			</section>
+
+				<section>
+					<h2>Orchestration:<br />JDBC template stored procedures</h2>
+					<img src="images/orchestration-jdbc-stored-procedures.png"  />
+				</section>
+
+				<section>
+					<h2>Orchestration: More...</h2>
+					<img class="body-right" src="images/orchestration-more.png" width="25%" />
+					<ul class="bullets" style="max-width:79%" >
+						<li>Client software distribution enhancements</li>
+						<li>InfoBlox DDI activity pack</li>
+						<li>Azure AD</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Update Sets: Batching</h2>
+					<img src="images/update-sets-batched.png" />
+					<ul>
+						<li>Parent/child relationship</li>
+						<li>Improved performance - batched schema altering</li>
+						<li>Better collision detection</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Update Sets: New Properties</h2>
+					<ul>
+						<li>glide.update_set.auto_preview</li>
+						<li>glide.update_set.retrieve_days</li>
+					</ul>
+				</section>
+			</section>
+			
+			<section>
+				<section>
+					<h2>Upgrades: Performance</h2>
+					<img src="images/upgrades-dashboard.png" width="75%" />
+					<ul>
+						<li>Fast in-family upgrades</li>
+						<li>Replace on upgrade</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Upgrades: Summary Report</h2>
+					<img src="images/upgrades-summary-report.png"/>
+					</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>ATF: Scheduled Test</h2>
+					<img class="body-right" src="images/atf-schedule.png" width="45%" />
+					<ul class="bullets">
+						<li>Scheduled test suite runs</li>
+						<li>Pick a browser</li>
+						<li>Log file is in ms</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>ATF: Reports</h2>
+					<img class="body-right" src="images/atf-report.png" width="45%" />
+					<ul class="bullets">
+						<li>Have test results mailed to you</li>
+						<li>New properties - including Save images</li>
+					</ul>
+				</section>
+			</section>
+			
+			<section>
+				<section>
+					<h2>Workflow: Welcome Page</h2>
+					<img src="images/workflow-welcome.png" width="70%" />
+					<ul>
+						<li>Cleaner tabbed layout</li>
+						<li>New workflow button</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Workflow: Help Section</h2>
+					<img src="images/workflow-help.png" width="80%" />
+					<ul>
+						<li>Blocks take you to related docs</li>
+						<li>Sections are extensible based on plugins</li>
+						<li>No more approval video</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Workflow: Conditions</h2>
+					<img src="images/workflow-condition.png" />
+				</section>
+
+				<section>
+					<h2>Workflow: Table Cleaner Returns</h2>
+					<ul>
+						<li>No more false restarts</li>
+					</ul>
+				</section>
+			</section>
+			
+			<section>
+				<h2>Edge Encryption</h2>
+				<img class="body-right" src="images/edge-installer.png" width="45%" />
+				<ul class="bullets">
+					<li>Proxy installer</li>
+					<li>Scheduled upgrades</li>
+					<ul>
+						<li>Just specify which proxy and when</li>
+					</ul>
+				</ul>
+			</section>
+
 
 <!--
 			<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
